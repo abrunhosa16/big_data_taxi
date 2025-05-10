@@ -1,10 +1,20 @@
 # big_data_taxi
 
+Set the python version 3.8.12.
+
+Create a virtual enviroment with:
+```
+python3 -m venv myenv
+```
+Activate the virtual env:
+```
+source myenv/bin/activate
+```
 Create a folder called "datasets"
 
 run in the bash: 
 ```
-Bash: pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 Download datasets of this website: https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
