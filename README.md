@@ -10,6 +10,10 @@ Activate the virtual env:
 ```
 source myenv/bin/activate
 ```
+IF WINDOWS: 
+```
+myenv/Scripts/activate
+```
 Create a folder called "datasets"
 
 run in the bash: 
