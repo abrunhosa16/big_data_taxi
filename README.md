@@ -4,7 +4,7 @@ Set the python version 3.8.12.
 
 Create a virtual enviroment with:
 ```
-python3 -m venv myenv
+python -m venv myenv
 ```
 Activate the virtual env(linux):
 ```
