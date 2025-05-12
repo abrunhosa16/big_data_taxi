@@ -24,3 +24,4 @@ pip install -r requirements.txt
 Download datasets of this website: https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
 
 To a initial tests select 2025 -> And download: (February) Green Taxi Trip Records (PARQUET)
+Put downloads datasets in "datasets" folder.
