@@ -1,27 +1,25 @@
-# big_data_taxi
+big_data_taxi — Setup Instructions
 
-Set the python version 3.8.12.
+1. Set the Python version to 3.8.12.
 
-Create a virtual enviroment with:
-```
-python -m venv myenv
-```
-Activate the virtual env(linux):
-```
-source myenv/bin/activate
-```
-IF WINDOWS: 
-```
-myenv/Scripts/activate
-```
-Create a folder called "datasets"
+2. Create a virtual environment:
+   python -m venv myenv
 
-run in the bash: 
-```
-pip install -r requirements.txt
-```
+3. Activate the virtual environment:
+   - On Linux/macOS:
+     source myenv/bin/activate
+   - On Windows:
+     myenv\Scripts\activate
 
-Download datasets of this website: https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
+4. Create a folder named "datasets":
+   mkdir datasets
 
-To a initial tests select 2025 -> And download: (February) Green Taxi Trip Records (PARQUET)
-Put downloads datasets in "datasets" folder.
+5. Install dependencies:
+   pip install -r requirements.txt
+
+6. Download the dataset:
+   Visit: https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
+   Select year 2025, then download:
+   "February - Green Taxi Trip Records (PARQUET format)"
+
+7. Move the downloaded file into the "datasets" folder.
